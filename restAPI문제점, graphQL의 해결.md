@@ -33,3 +33,22 @@ GraphQL 클라이언트와 호환되는 사양 수준의 오픈 소스 GrapQl �
 npm init -y
 npm install apollo-server graphql
 npm install nodemon -D
+
+# graphQL 이해하기
+
+## query
+
+user가 server에게 data를 받도록 하고 싶은 것을 넣어둔다.
+restAPI 에서 GET에 해당하는 부분이다.
+
+## mutation
+
+user가 server에게 data를 보내서 database가 업데이트 되거나 변경되면
+mutation 안에 있어야 한다.
+
+## ! required
+
+user에게 꼭 받아야하는 정보가 있거나, server에서 반환 값이 무조건 있어야 한다면(null이 아닌) !를 붙이면 된다.
+ex) userName : String
+ex) userId : String!
+ex) allTweet : [Tweet!]!
