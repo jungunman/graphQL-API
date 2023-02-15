@@ -1,0 +1,27 @@
+{
+  "name": "graphql-api",
+  "version": "1.0.0",
+  "description": "",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/jungunman/graphQL-API.git"
+  },
+  "keywords": [],
+  "author": "",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/jungunman/graphQL-API/issues"
+  },
+  "homepage": "https://github.com/jungunman/graphQL-API#readme",
+  "dependencies": {
+    "apollo-server": "^3.11.1",
+    "graphql": "^16.6.0"
+  },
+  "devDependencies": {
+    "nodemon": "^2.0.20"
+  }
+}
